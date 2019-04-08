@@ -4,7 +4,15 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
+import
+
 public class Controller extends Application {
+
+    private SudokuBoard board;
+
+    private void boardInit() {
+
+    }
 
     public void start(Stage primaryStage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("mainView.fxml"));
